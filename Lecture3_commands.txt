@@ -1,0 +1,240 @@
+    1  
+    2  sudo su -
+    3  clear
+    4  exit
+    5  sudo apt update
+    6  git --version
+    7  sudo apt upgrade
+    8  sudo apt-get install kali-linux-full
+    9  cd ~
+   10  cd ..
+   11  ls
+   12  cd ..
+   13  ls
+   14  cd ..
+   15  ls
+   16  cd ~
+   17  ls
+   18  clear
+   19  exit
+   20  ls
+   21  cd ..
+   22  ls
+   23  cd ..
+   24  ls
+   25  cd ..
+   26  ls
+   27  cd tmp
+   28  ls
+   29  cd  ~
+   30  ls
+   31  clear
+   32  cd Desktop
+   33  mount
+   34  mount /media/cdrom
+   35  ls
+   36  cd ..
+   37  ls
+   38  cd Desktop
+   39  clear
+   40  ls
+   41  grep vmware
+   42  clear
+   43  cd kali/
+   44  cd /kali/
+   45  cd..
+   46  cd ..
+   47  clear
+   48  ls
+   49  cd kali
+   50  ls
+   51  cd cdrom0
+   52  tar --x VMwareTools-10.3.23-16594550.tar.gz
+   53  tar -x VMwareTools-10.3.23-16594550.tar.gz
+   54  tar -x -f VMwareTools-10.3.23-16594550.tar.gz
+   55  cd vmware-tools-distrib
+   56  ls
+   57  .vmware-install.pl
+   58  cd installer
+   59  ls
+   60  cd ..
+   61  ./vmware-install.pl
+   62  sudo su -
+   63  mkdir ITP270
+   64  cd ITP270
+   65  fc-cache -fv
+   66  clear
+   67  exiut
+   68  exit
+   69  cd ITP270/
+   70  ls
+   71  nano ITP270Lecture2.py
+   72  nano test.py
+   73  rm test.py
+   74  clear
+   75  ls
+   76  git init
+   77  python3 --version
+   78  git clone https://github.com/prohung/ITP270-Hung.git
+   79  nano Lecture3.py
+   80  nano Lecture3.txt
+   81  ls
+   82  clear
+   83  ls
+   84  mv ITP270Lecture2.py ITP270-Hung
+   85  ls
+   86  mv Lecture3.txt ITP270-Hung
+   87  ls
+   88  clear
+   89  git clone https://github.com/prohung/ITP270-Hung.git
+   90  ls ITP270-Hung
+   91  clear
+   92  git status
+   93  git add -A
+   94  cd ITP270-Hung
+   95  git add -A
+   96  clear
+   97  git commit -m "Adding Lecture2 and Lecture3 files"
+   98  git config --global user.name "Hung Nguyen"
+   99  git config --global user.email "hn28446@email.vccs.edu"
+  100  git config --global color.ui auto
+  101  git commit -m "Adding Lecture2 and Lecture3 files"
+  102  git push
+  103  ^[[200~git push -u origin
+  104  git push -u origin
+  105  pwd
+  106  clear
+  107  cd ~
+  108  mkdir Moves
+  109  mv Moves Movies 
+  110  ls
+  111  cd Movies
+  112  mkdir Action
+  113  mkdir Comedy
+  114  mkdir Drama
+  115  cd Action
+  116  mkdir scifi
+  117  mkdir superhero
+  118  touch batman.txt
+  119  ls
+  120  clear
+  121  ls
+  122  cd ..
+  123  ls
+  124  touch genres.txt
+  125  ls
+  126  cd Action
+  127  clear
+  128  ls
+  129  mkdir matrix-reloaded.txt
+  130  cd scifi
+  131  touch terminator.txt
+  132  ls
+  133  clear
+  134  cd ..
+  135  ls
+  136  rm matrix-reloaded.txt
+  137  mv matrix-reloaded.txt 
+  138  rmdir matrix-reloaded.txt
+  139  touch matrix-reloaded.txt
+  140  touch matrix-revolution.txt
+  141  touch matrix.txt
+  142  touch superman.txt
+  143  touch wonderwoman.txt
+  144  ls
+  145  clear
+  146  ls
+  147  cd scifi
+  148  ls
+  149  clear
+  150  cd ..
+  151  cd Comedy
+  152  mkdir slapstick
+  153  mkdir sature
+  154  rmdir sature
+  155  mkdir sature
+  156  rmdir sature
+  157  mkdir satire
+  158  clear
+  159  touch the-office.txt
+  160  clear
+  161  ls
+  162  cd satire
+  163  touch fightclub.txt
+  164  cd ..
+  165  cd slapstick
+  166  touch waterboy.txt
+  167  touch zoolander.txt
+  168  cd ..
+  169  ls
+  170  cd ..
+  171  cd Drama
+  172  mkdir biopic
+  173  mkdir historical
+  174  clear
+  175  cd biopic
+  176  touch cleopatra.txt
+  177  touch lincoln.txt
+  178  touch frida.txt
+  179  touch notorious.txt
+  180  touch ray.txt
+  181  cd ..
+  182  cd historical
+  183  touch gladiator.txt
+  184  touch selma.txt
+  185  clear
+  186  ls
+  187  cd ..
+  188  ls
+  189  clear
+  190  cd ~
+  191  ls
+  192  cd Desktop
+  193  cd ITP270
+  194  ls
+  195  cd ITP270-Hung
+  196  ls
+  197  git commit
+  198  git status
+  199  git push
+  200  clear
+  201  cd ..
+  202  cd ~
+  203  ls
+  204  cd Movies
+  205  cd ..
+  206  cd Desktop
+  207  cd ITP270
+  208  cd ..
+  209  mv ITP270 /kali/
+  210  sudo mv ITP270 /kali/
+  211  ls
+  212  cd ~
+  213  ls
+  214  cd Movies
+  215  cd ..
+  216  ls
+  217  cd Desktop
+  218  ls
+  219  clear
+  220  cd ~
+  221  ls
+  222  cd ..
+  223  ls
+  224  cd kali
+  225  ls
+  226  mkdir ITP270
+  227  git clone https://github.com/prohung/ITP270-Hung.git
+  228  ls
+  229  cd Movies
+  230  ls
+  231  cd Action
+  232  ls
+  233  mv batman.txt /home/kali/Movies/Action/superhero
+  234  ls
+  235  cd superhero
+  236  ls
+  237  touch spiderman.txt
+  238  cd ~
+  239  ls
+  240  cd ITP270-Hung
