@@ -2,20 +2,16 @@ Create a text file in your local Github repository. Then write down the followin
 
 1. Print the working directory.
 	- pwd
-	- Enter
 
 2. Create and open a file in nano called hello.txt.
 	- nano hello.txt
-	- Enter
 
 3. Save the string, “Hello, I am nano” in hello.txt. Save the file, exit nano, and clear the terminal.
 	- Hello, I am nano
 	- Ctrl + O
 	- Enter
 	- Ctrl + X
-	- Enter
 	- clear
-	- Enter
 
 4. Use nano to open the bash profile.
 	- nano ~/.bash_profile
@@ -52,7 +48,7 @@ Create a text file in your local Github repository. Then write down the followin
 	- echo $USER
 
 13. Open the bash profile and create and export the PS1 environment variable, setting it equal to ">> ". Save the file, exit nano, and clear the terminal.
-	- export PS1=">>"
+	- export PS1=">> "
 
 14. Use the source command to make the prompt available in the current session.
 	- source ~/.bash_profile
@@ -60,7 +56,6 @@ Create a text file in your local Github repository. Then write down the followin
 15. Test out the prompt by typing the two aliases you created earlier.
 	- p
 	- ll
-
 
 16. Echo the HOME variable.
 	- echo $HOME
