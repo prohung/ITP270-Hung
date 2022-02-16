@@ -7,10 +7,10 @@ echo "Is it raining[Y/N]?"
 read IS_RAIN
 
 #Start the if-else block to check if it is raining
-if [ $IS_RAIN == "Y" ] || [ $IS_RAIN == "y" ]
+if [ "$IS_RAIN" == "Y" ] || [ "$IS_RAIN" == "y" ]
 then
 	echo "Stay home."
-elif [ $IS_RAIN == "N" ] || [ $IS_RAIN == "n" ]
+elif [ "$IS_RAIN" == "N" ] || [ "$IS_RAIN" == "n" ]
 then
 	echo "Go outside!"
 else
